@@ -1,0 +1,20 @@
+{
+  "name": "nextndate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nextnDate.js",
+  "scripts": {
+    "report": "npm run test > log && node result.js",
+    "test": "istanbul cover -- node_modules/.bin/_mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1",
+    "should": "^13.1.3"
+  },
+  "dependencies": {
+    "node-xlsx": "^0.11.2"
+  }
+}
