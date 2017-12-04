@@ -7,7 +7,7 @@
 npm run test
 ```
 
-#### 运行测试用例并且将结果导入到 excel 中
+#### 将结果导入到 excel 中
 ```
 npm run report
 ```

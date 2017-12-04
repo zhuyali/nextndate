@@ -4,7 +4,7 @@
   "description": "",
   "main": "nextnDate.js",
   "scripts": {
-    "report": "npm run test > log && node result.js",
+    "report": "node result.js",
     "test": "istanbul cover -- node_modules/.bin/_mocha"
   },
   "author": "",

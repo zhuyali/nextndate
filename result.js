@@ -40,6 +40,6 @@ result[testcase.length + 3][0] = 'Lines';
 result[testcase.length + 3][1] = line[0].split(':')[1].trim();
 
 const buffer = xlsx.build([{name: "worksheet", data: result}]);
-fs.writeFileSync('result.xlsx', buffer, 'binary');
+fs.writeFileSync('result-wq.xlsx', buffer, 'binary');
 
 console.log('测试结果请到 result.xlsx 中查看');
